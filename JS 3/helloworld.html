@@ -1,0 +1,77 @@
+<head>
+    <title> Hello Page </title>
+</head>
+<body>
+    <h3> Welcome to Java Script Tutorials </h3>
+    <p id="p1"> Paragraph 1 </p>
+    <p id="p2"> Paragraph 2 </p>
+    <p id="p3"> Paragraph 3 </p>
+    <p id="p4"> Paragraph 4 </p>
+    <p id="ps"> Paragraph 5 </p>
+    <p id="p6"> Paragraph 6 </p>
+    <p id="p7"> Paragraph 7 </p>
+     
+    <script>
+ //operators +,-,*,/,%,**,++,--,...
+
+ var n1=10;
+ var n2=2;
+
+ document.getElementById("p1").innerHTML=n1+n2;
+
+ document.getElementById("p2").innerHTML=n1-n2;
+
+ document.getElementById("p3").innerHTML=n1*n2;
+
+ document.getElementById("p4").innerHTML=n1/n2;
+
+ document.getElementById("p5").InnerHTML=n1%n2;
+
+ document.getElementById("p6").innerHTML=++n1;
+
+ document.getElementById("p7").innerHTML=n1**2;
+
+
+ //assignment +,-,*,/,%, Bitwise ,,,
+
+  var n=10
+
+  n+=2; // n=n+2
+  document.getElementById("p1").innerHTML=n;
+
+  n=2; // n=n-2
+  document.getElementById("p2").innerHTML=n;
+
+  n*=2; // n=n*2 
+  document.getElementById("p3").innerHTML=n;
+
+  n/=2; // n=n/2
+  document.getElementById("p4").innerHTML=n;
+
+  n%=2 //n=n%2
+  document.getElementById("p5").innerHTML=n;
+
+  n**=2 //n=n**2
+  document.getElementById("p6").innerHTML=n;
+
+  n=8; //8 is stored as 1000
+  n=4; // 4 is stored as 0100, so 8|4 is 1100 which is 12
+  document.getElementById("p7").innerHTML=n;
+    
+
+  //comparisons operators >,<,>=,<=,==,&&,||
+
+  var n1=999;
+  var n2=777;
+
+  document.getElementById("p1").innerHTML=n1 > n2;
+  document.getElementById("p2").innerHTML=n1 < n2;
+  document.getElementById("p3").innerHTML=n1 >= 999;
+  document.getElementById("p4").innerHTML=n2 <= 777;
+  document.getElementById("p5").innerHTML=n1==n2;
+  document.getElementById("p6").innerHTML=(n1>n2) && (n1>1000);
+  document.getElementById("p7").innerHTML=(n1>n2) || (n1>1000);
+
+
+</script>
+</body>

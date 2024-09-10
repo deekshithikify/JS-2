@@ -1,1 +1,2 @@
-# JS-2
+# JS,
+Operators,assigment comparisonal operators
